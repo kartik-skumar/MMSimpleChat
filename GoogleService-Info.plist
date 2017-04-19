@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>27399631071-1nq9rnkm31u9es8oojsq1mofmkk6b9fb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.27399631071-1nq9rnkm31u9es8oojsq1mofmkk6b9fb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA4ucay2BI1opqOmVUXa6IoY4qnwP5ar5Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>27399631071</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ks.home.MMSimpleChat</string>
+	<key>PROJECT_ID</key>
+	<string>mmsimplechat</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mmsimplechat.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:27399631071:ios:b0b5b381551766b6</string>
+	<key>DATABASE_URL</key>
+	<string>https://mmsimplechat.firebaseio.com</string>
+</dict>
+</plist>

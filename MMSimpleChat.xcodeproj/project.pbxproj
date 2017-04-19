@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015CDF25C274F01871AF44AB /* libPods-MMSimpleChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 427661AB0453A9EA0CD32DD8 /* libPods-MMSimpleChat.a */; };
+		0EF8AD4D29DC2A9BE2A4A5DE /* libPods-MMSimpleChatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7D87310CFE4C1C6ED2B7B7 /* libPods-MMSimpleChatUITests.a */; };
+		4D27116A01DA9D313B5736C3 /* libPods-MMSimpleChatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB24506A9B0B3D88729285C /* libPods-MMSimpleChatTests.a */; };
+		EF1499D01EA2193700162230 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1499CF1EA2193700162230 /* main.m */; };
+		EF1499D31EA2193700162230 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1499D21EA2193700162230 /* AppDelegate.m */; };
+		EF1499D61EA2193700162230 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1499D51EA2193700162230 /* ViewController.m */; };
+		EF1499D91EA2193700162230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1499D71EA2193700162230 /* Main.storyboard */; };
+		EF1499DC1EA2193700162230 /* MMSimpleChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF1499DA1EA2193700162230 /* MMSimpleChat.xcdatamodeld */; };
+		EF1499DE1EA2193700162230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1499DD1EA2193700162230 /* Assets.xcassets */; };
+		EF1499E11EA2193700162230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1499DF1EA2193700162230 /* LaunchScreen.storyboard */; };
+		EF1499EC1EA2193700162230 /* MMSimpleChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1499EB1EA2193700162230 /* MMSimpleChatTests.m */; };
+		EF1499F71EA2193700162230 /* MMSimpleChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1499F61EA2193700162230 /* MMSimpleChatUITests.m */; };
+		EF149A061EA255DD00162230 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF149A051EA255DD00162230 /* SignUpViewController.m */; };
+		EF149A091EA25C2E00162230 /* UsersAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF149A081EA25C2E00162230 /* UsersAppViewController.m */; };
+		EF149A0C1EA25C4600162230 /* UsersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF149A0B1EA25C4600162230 /* UsersTableViewCell.m */; };
+		EF149A0E1EA279A200162230 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF149A0D1EA279A200162230 /* GoogleService-Info.plist */; };
+		EF793BB31EA387510035C60A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EF793BB21EA387510035C60A /* User.m */; };
+		EF793BB51EA3BB840035C60A /* options.png in Resources */ = {isa = PBXBuildFile; fileRef = EF793BB41EA3BB840035C60A /* options.png */; };
+		EF793BBA1EA3BDF00035C60A /* UserPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF793BB81EA3BDF00035C60A /* UserPopoverViewController.m */; };
+		EF793BBB1EA3BDF00035C60A /* UserPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF793BB91EA3BDF00035C60A /* UserPopoverViewController.xib */; };
+		EF793BBE1EA3C28D0035C60A /* UIPopoverController+iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = EF793BBD1EA3C28D0035C60A /* UIPopoverController+iPhone.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1499E81EA2193700162230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1499C31EA2193700162230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1499CA1EA2193700162230;
+			remoteInfo = MMSimpleChat;
+		};
+		EF1499F31EA2193700162230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1499C31EA2193700162230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1499CA1EA2193700162230;
+			remoteInfo = MMSimpleChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08004F5B096C3281442F187D /* Pods-MMSimpleChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSimpleChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMSimpleChatTests/Pods-MMSimpleChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		23229EAA35674E4A568E41D3 /* Pods-MMSimpleChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSimpleChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMSimpleChat/Pods-MMSimpleChat.release.xcconfig"; sourceTree = "<group>"; };
+		27852FA9ADDC223C8D039735 /* Pods-MMSimpleChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSimpleChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMSimpleChatUITests/Pods-MMSimpleChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		427661AB0453A9EA0CD32DD8 /* libPods-MMSimpleChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMSimpleChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB24506A9B0B3D88729285C /* libPods-MMSimpleChatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMSimpleChatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7D87310CFE4C1C6ED2B7B7 /* libPods-MMSimpleChatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMSimpleChatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D7D6A2C8F8D3218779224C /* Pods-MMSimpleChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSimpleChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMSimpleChatTests/Pods-MMSimpleChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		950B6EB552A744A5B3CA27CA /* Pods-MMSimpleChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSimpleChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMSimpleChatUITests/Pods-MMSimpleChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF1499CB1EA2193700162230 /* MMSimpleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMSimpleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1499CF1EA2193700162230 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF1499D11EA2193700162230 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF1499D21EA2193700162230 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF1499D41EA2193700162230 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF1499D51EA2193700162230 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF1499D81EA2193700162230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1499DB1EA2193700162230 /* MMSimpleChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MMSimpleChat.xcdatamodel; sourceTree = "<group>"; };
+		EF1499DD1EA2193700162230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1499E01EA2193700162230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1499E21EA2193700162230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1499E71EA2193700162230 /* MMSimpleChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMSimpleChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1499EB1EA2193700162230 /* MMSimpleChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMSimpleChatTests.m; sourceTree = "<group>"; };
+		EF1499ED1EA2193700162230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1499F21EA2193700162230 /* MMSimpleChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMSimpleChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1499F61EA2193700162230 /* MMSimpleChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMSimpleChatUITests.m; sourceTree = "<group>"; };
+		EF1499F81EA2193700162230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF149A041EA255DD00162230 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		EF149A051EA255DD00162230 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		EF149A071EA25C2E00162230 /* UsersAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersAppViewController.h; sourceTree = "<group>"; };
+		EF149A081EA25C2E00162230 /* UsersAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersAppViewController.m; sourceTree = "<group>"; };
+		EF149A0A1EA25C4600162230 /* UsersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UsersTableViewCell.h; path = ../UsersTableViewCell.h; sourceTree = "<group>"; };
+		EF149A0B1EA25C4600162230 /* UsersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsersTableViewCell.m; path = ../UsersTableViewCell.m; sourceTree = "<group>"; };
+		EF149A0D1EA279A200162230 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF793BB11EA387510035C60A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		EF793BB21EA387510035C60A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		EF793BB41EA3BB840035C60A /* options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = options.png; sourceTree = "<group>"; };
+		EF793BB71EA3BDF00035C60A /* UserPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPopoverViewController.h; sourceTree = "<group>"; };
+		EF793BB81EA3BDF00035C60A /* UserPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPopoverViewController.m; sourceTree = "<group>"; };
+		EF793BB91EA3BDF00035C60A /* UserPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserPopoverViewController.xib; sourceTree = "<group>"; };
+		EF793BBC1EA3C28D0035C60A /* UIPopoverController+iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+iPhone.h"; sourceTree = "<group>"; };
+		EF793BBD1EA3C28D0035C60A /* UIPopoverController+iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+iPhone.m"; sourceTree = "<group>"; };
+		FBA468B7E090668C7DEC1BF9 /* Pods-MMSimpleChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSimpleChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMSimpleChat/Pods-MMSimpleChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1499C81EA2193700162230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015CDF25C274F01871AF44AB /* libPods-MMSimpleChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1499E41EA2193700162230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D27116A01DA9D313B5736C3 /* libPods-MMSimpleChatTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1499EF1EA2193700162230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF8AD4D29DC2A9BE2A4A5DE /* libPods-MMSimpleChatUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87224120FFA9C48358A6103E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBA468B7E090668C7DEC1BF9 /* Pods-MMSimpleChat.debug.xcconfig */,
+				23229EAA35674E4A568E41D3 /* Pods-MMSimpleChat.release.xcconfig */,
+				83D7D6A2C8F8D3218779224C /* Pods-MMSimpleChatTests.debug.xcconfig */,
+				08004F5B096C3281442F187D /* Pods-MMSimpleChatTests.release.xcconfig */,
+				27852FA9ADDC223C8D039735 /* Pods-MMSimpleChatUITests.debug.xcconfig */,
+				950B6EB552A744A5B3CA27CA /* Pods-MMSimpleChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD2A23064EF7D7EB61CD97C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				427661AB0453A9EA0CD32DD8 /* libPods-MMSimpleChat.a */,
+				6EB24506A9B0B3D88729285C /* libPods-MMSimpleChatTests.a */,
+				7D7D87310CFE4C1C6ED2B7B7 /* libPods-MMSimpleChatUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF1499C21EA2193700162230 = {
+			isa = PBXGroup;
+			children = (
+				EF149A0D1EA279A200162230 /* GoogleService-Info.plist */,
+				EF1499CD1EA2193700162230 /* MMSimpleChat */,
+				EF1499EA1EA2193700162230 /* MMSimpleChatTests */,
+				EF1499F51EA2193700162230 /* MMSimpleChatUITests */,
+				EF1499CC1EA2193700162230 /* Products */,
+				87224120FFA9C48358A6103E /* Pods */,
+				AD2A23064EF7D7EB61CD97C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1499CC1EA2193700162230 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1499CB1EA2193700162230 /* MMSimpleChat.app */,
+				EF1499E71EA2193700162230 /* MMSimpleChatTests.xctest */,
+				EF1499F21EA2193700162230 /* MMSimpleChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1499CD1EA2193700162230 /* MMSimpleChat */ = {
+			isa = PBXGroup;
+			children = (
+				EF793BBF1EA718C20035C60A /* Users List */,
+				EF793BB61EA3BDCE0035C60A /* Popover */,
+				EF793BB01EA3873B0035C60A /* Model */,
+				EF793BC01EA718DA0035C60A /* Sign Up */,
+				EF1499D11EA2193700162230 /* AppDelegate.h */,
+				EF1499D21EA2193700162230 /* AppDelegate.m */,
+				EF1499D41EA2193700162230 /* ViewController.h */,
+				EF1499D51EA2193700162230 /* ViewController.m */,
+				EF1499D71EA2193700162230 /* Main.storyboard */,
+				EF1499DD1EA2193700162230 /* Assets.xcassets */,
+				EF1499DF1EA2193700162230 /* LaunchScreen.storyboard */,
+				EF1499E21EA2193700162230 /* Info.plist */,
+				EF1499DA1EA2193700162230 /* MMSimpleChat.xcdatamodeld */,
+				EF1499CE1EA2193700162230 /* Supporting Files */,
+			);
+			path = MMSimpleChat;
+			sourceTree = "<group>";
+		};
+		EF1499CE1EA2193700162230 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF793BB41EA3BB840035C60A /* options.png */,
+				EF1499CF1EA2193700162230 /* main.m */,
+				EF793BBC1EA3C28D0035C60A /* UIPopoverController+iPhone.h */,
+				EF793BBD1EA3C28D0035C60A /* UIPopoverController+iPhone.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF1499EA1EA2193700162230 /* MMSimpleChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1499EB1EA2193700162230 /* MMSimpleChatTests.m */,
+				EF1499ED1EA2193700162230 /* Info.plist */,
+			);
+			path = MMSimpleChatTests;
+			sourceTree = "<group>";
+		};
+		EF1499F51EA2193700162230 /* MMSimpleChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1499F61EA2193700162230 /* MMSimpleChatUITests.m */,
+				EF1499F81EA2193700162230 /* Info.plist */,
+			);
+			path = MMSimpleChatUITests;
+			sourceTree = "<group>";
+		};
+		EF793BB01EA3873B0035C60A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF793BB11EA387510035C60A /* User.h */,
+				EF793BB21EA387510035C60A /* User.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EF793BB61EA3BDCE0035C60A /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				EF793BB71EA3BDF00035C60A /* UserPopoverViewController.h */,
+				EF793BB81EA3BDF00035C60A /* UserPopoverViewController.m */,
+				EF793BB91EA3BDF00035C60A /* UserPopoverViewController.xib */,
+			);
+			name = Popover;
+			sourceTree = "<group>";
+		};
+		EF793BBF1EA718C20035C60A /* Users List */ = {
+			isa = PBXGroup;
+			children = (
+				EF149A071EA25C2E00162230 /* UsersAppViewController.h */,
+				EF149A081EA25C2E00162230 /* UsersAppViewController.m */,
+				EF149A0A1EA25C4600162230 /* UsersTableViewCell.h */,
+				EF149A0B1EA25C4600162230 /* UsersTableViewCell.m */,
+			);
+			name = "Users List";
+			sourceTree = "<group>";
+		};
+		EF793BC01EA718DA0035C60A /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				EF149A041EA255DD00162230 /* SignUpViewController.h */,
+				EF149A051EA255DD00162230 /* SignUpViewController.m */,
+			);
+			name = "Sign Up";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1499CA1EA2193700162230 /* MMSimpleChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1499FB1EA2193700162230 /* Build configuration list for PBXNativeTarget "MMSimpleChat" */;
+			buildPhases = (
+				523B05E0A93A61D2D325BA61 /* [CP] Check Pods Manifest.lock */,
+				EF1499C71EA2193700162230 /* Sources */,
+				EF1499C81EA2193700162230 /* Frameworks */,
+				EF1499C91EA2193700162230 /* Resources */,
+				7AEB1B450F7AD70326A5D90E /* [CP] Embed Pods Frameworks */,
+				0032D25E12A8953F1F6A09A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMSimpleChat;
+			productName = MMSimpleChat;
+			productReference = EF1499CB1EA2193700162230 /* MMSimpleChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1499E61EA2193700162230 /* MMSimpleChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1499FE1EA2193700162230 /* Build configuration list for PBXNativeTarget "MMSimpleChatTests" */;
+			buildPhases = (
+				471D69459B8B90975B93A69F /* [CP] Check Pods Manifest.lock */,
+				EF1499E31EA2193700162230 /* Sources */,
+				EF1499E41EA2193700162230 /* Frameworks */,
+				EF1499E51EA2193700162230 /* Resources */,
+				572B35E26B627CF3E5B2DD9B /* [CP] Embed Pods Frameworks */,
+				DDA1F204A015476630115832 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1499E91EA2193700162230 /* PBXTargetDependency */,
+			);
+			name = MMSimpleChatTests;
+			productName = MMSimpleChatTests;
+			productReference = EF1499E71EA2193700162230 /* MMSimpleChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF1499F11EA2193700162230 /* MMSimpleChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF149A011EA2193700162230 /* Build configuration list for PBXNativeTarget "MMSimpleChatUITests" */;
+			buildPhases = (
+				F44D8BABF3488F13DE6C134D /* [CP] Check Pods Manifest.lock */,
+				EF1499EE1EA2193700162230 /* Sources */,
+				EF1499EF1EA2193700162230 /* Frameworks */,
+				EF1499F01EA2193700162230 /* Resources */,
+				E3749F58522024BDC6D05C76 /* [CP] Embed Pods Frameworks */,
+				19543547C0F8038D1901C78D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1499F41EA2193700162230 /* PBXTargetDependency */,
+			);
+			name = MMSimpleChatUITests;
+			productName = MMSimpleChatUITests;
+			productReference = EF1499F21EA2193700162230 /* MMSimpleChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1499C31EA2193700162230 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Kartik's MacG";
+				TargetAttributes = {
+					EF1499CA1EA2193700162230 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF1499E61EA2193700162230 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF1499CA1EA2193700162230;
+					};
+					EF1499F11EA2193700162230 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF1499CA1EA2193700162230;
+					};
+				};
+			};
+			buildConfigurationList = EF1499C61EA2193700162230 /* Build configuration list for PBXProject "MMSimpleChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1499C21EA2193700162230;
+			productRefGroup = EF1499CC1EA2193700162230 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1499CA1EA2193700162230 /* MMSimpleChat */,
+				EF1499E61EA2193700162230 /* MMSimpleChatTests */,
+				EF1499F11EA2193700162230 /* MMSimpleChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1499C91EA2193700162230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1499E11EA2193700162230 /* LaunchScreen.storyboard in Resources */,
+				EF793BBB1EA3BDF00035C60A /* UserPopoverViewController.xib in Resources */,
+				EF149A0E1EA279A200162230 /* GoogleService-Info.plist in Resources */,
+				EF793BB51EA3BB840035C60A /* options.png in Resources */,
+				EF1499DE1EA2193700162230 /* Assets.xcassets in Resources */,
+				EF1499D91EA2193700162230 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1499E51EA2193700162230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1499F01EA2193700162230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0032D25E12A8953F1F6A09A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMSimpleChat/Pods-MMSimpleChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19543547C0F8038D1901C78D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMSimpleChatUITests/Pods-MMSimpleChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		471D69459B8B90975B93A69F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		523B05E0A93A61D2D325BA61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		572B35E26B627CF3E5B2DD9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMSimpleChatTests/Pods-MMSimpleChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AEB1B450F7AD70326A5D90E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMSimpleChat/Pods-MMSimpleChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA1F204A015476630115832 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMSimpleChatTests/Pods-MMSimpleChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3749F58522024BDC6D05C76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMSimpleChatUITests/Pods-MMSimpleChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F44D8BABF3488F13DE6C134D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1499C71EA2193700162230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF793BB31EA387510035C60A /* User.m in Sources */,
+				EF1499D61EA2193700162230 /* ViewController.m in Sources */,
+				EF149A091EA25C2E00162230 /* UsersAppViewController.m in Sources */,
+				EF149A0C1EA25C4600162230 /* UsersTableViewCell.m in Sources */,
+				EF149A061EA255DD00162230 /* SignUpViewController.m in Sources */,
+				EF1499DC1EA2193700162230 /* MMSimpleChat.xcdatamodeld in Sources */,
+				EF793BBA1EA3BDF00035C60A /* UserPopoverViewController.m in Sources */,
+				EF1499D31EA2193700162230 /* AppDelegate.m in Sources */,
+				EF793BBE1EA3C28D0035C60A /* UIPopoverController+iPhone.m in Sources */,
+				EF1499D01EA2193700162230 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1499E31EA2193700162230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1499EC1EA2193700162230 /* MMSimpleChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1499EE1EA2193700162230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1499F71EA2193700162230 /* MMSimpleChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1499E91EA2193700162230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1499CA1EA2193700162230 /* MMSimpleChat */;
+			targetProxy = EF1499E81EA2193700162230 /* PBXContainerItemProxy */;
+		};
+		EF1499F41EA2193700162230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1499CA1EA2193700162230 /* MMSimpleChat */;
+			targetProxy = EF1499F31EA2193700162230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1499D71EA2193700162230 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1499D81EA2193700162230 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1499DF1EA2193700162230 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1499E01EA2193700162230 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1499F91EA2193700162230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1499FA1EA2193700162230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1499FC1EA2193700162230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA468B7E090668C7DEC1BF9 /* Pods-MMSimpleChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMSimpleChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ks.home.MMSimpleChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF1499FD1EA2193700162230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23229EAA35674E4A568E41D3 /* Pods-MMSimpleChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMSimpleChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ks.home.MMSimpleChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF1499FF1EA2193700162230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D7D6A2C8F8D3218779224C /* Pods-MMSimpleChatTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MMSimpleChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ks.home.MMSimpleChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMSimpleChat.app/MMSimpleChat";
+			};
+			name = Debug;
+		};
+		EF149A001EA2193700162230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08004F5B096C3281442F187D /* Pods-MMSimpleChatTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MMSimpleChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ks.home.MMSimpleChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMSimpleChat.app/MMSimpleChat";
+			};
+			name = Release;
+		};
+		EF149A021EA2193700162230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27852FA9ADDC223C8D039735 /* Pods-MMSimpleChatUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MMSimpleChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ks.home.MMSimpleChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMSimpleChat;
+			};
+			name = Debug;
+		};
+		EF149A031EA2193700162230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950B6EB552A744A5B3CA27CA /* Pods-MMSimpleChatUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MMSimpleChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ks.home.MMSimpleChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMSimpleChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1499C61EA2193700162230 /* Build configuration list for PBXProject "MMSimpleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1499F91EA2193700162230 /* Debug */,
+				EF1499FA1EA2193700162230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1499FB1EA2193700162230 /* Build configuration list for PBXNativeTarget "MMSimpleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1499FC1EA2193700162230 /* Debug */,
+				EF1499FD1EA2193700162230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1499FE1EA2193700162230 /* Build configuration list for PBXNativeTarget "MMSimpleChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1499FF1EA2193700162230 /* Debug */,
+				EF149A001EA2193700162230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF149A011EA2193700162230 /* Build configuration list for PBXNativeTarget "MMSimpleChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF149A021EA2193700162230 /* Debug */,
+				EF149A031EA2193700162230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF1499DA1EA2193700162230 /* MMSimpleChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF1499DB1EA2193700162230 /* MMSimpleChat.xcdatamodel */,
+			);
+			currentVersion = EF1499DB1EA2193700162230 /* MMSimpleChat.xcdatamodel */;
+			path = MMSimpleChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF1499C31EA2193700162230 /* Project object */;
+}
